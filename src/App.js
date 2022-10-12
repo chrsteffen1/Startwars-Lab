@@ -11,9 +11,9 @@ function App() {
       <div className="NavBar">
         <NavBar />
       </div>
-      <StarshipList />
       <Routes>
-        <Route path='starship' element={<StarshipDetails />} />
+        <Route path='/' element={<StarshipList />} />
+        <Route path='/starship' element={<StarshipDetails />} />
       </Routes>
     </>
   );
