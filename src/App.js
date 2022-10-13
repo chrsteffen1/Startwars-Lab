@@ -11,10 +11,12 @@ function App() {
       <div className="NavBar">
         <NavBar />
       </div>
-      <Routes>
-        <Route path='/' element={<StarshipList />} />
-        <Route path='/starship' element={<StarshipDetails />} />
-      </Routes>
+      <div className='id-card'>
+        <Routes>
+          <Route path='/' element={<StarshipList />} />
+          <Route path='/starship' element={<StarshipDetails />} />
+        </Routes>
+      </div>
     </>
   );
 }

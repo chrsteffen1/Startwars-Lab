@@ -1,10 +1,50 @@
 .NavBar {
   background-color: black;
-  columns: white;
   color: white;
 }
 
 h1 {
   margin: 0;
   text-align: center;
+}
+
+.ship-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:  wrap;
+
+}
+
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15%;
+  width: 150px;
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+
+.starship-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+
+.starship-card div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
