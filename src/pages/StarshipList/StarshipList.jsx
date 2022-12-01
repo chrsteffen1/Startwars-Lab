@@ -18,7 +18,7 @@ const StarshipList = () => {
     <div className="body">
       <div className="ship-div">
         {starships.map(starship =>
-        <Link key={starship.name} state={{ starship }} to='/starship' style={{textDecoration:'none'}}>
+        <Link key={starship.name} state={{ starship }} to='/starship' style={{textDecoration:'none'}} >
           <div className="card">
             {starship.name}
           </div>
